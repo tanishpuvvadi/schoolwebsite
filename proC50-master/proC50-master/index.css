@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    background-color: #bfb3ff;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.header {
+    flex: 2;
+    justify-content: flex-start;
+    text-align: center;
+    /* font-family: serif; */
+    font-size: 60px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.social_logo {
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    margin: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.nav a:hover {
+    color: #b3e6ff;
+    text-decoration-color: #008CBA;
+}
+
+.nav a.active {
+    text-decoration-line: underline;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 50;
+    /* font-weight: bold; */
+}
+
+.list {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    display: block;
+    position: relative;
+    left: 50px;
+    /* font-family: serif; */
+    font-size: 20px;
+    /* font-weight: bold; */
+    float: center;
+    right: 50px;
+}
+
+.image3 {
+    display: block;
+    position: relative;
+    left: 50px;
+    /* font-family: serif; */
+    font-size: 20px;
+    /* font-weight: bold; */
+    float: center;
+    right: 50px;
+}
+
+.list {
+    /* font-family: serif; */
+    font-size: 20px
+}
+
+.image {
+    flex: 1;
+    position: relative;
+    width: 50%;
+    object-fit: cover;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image1 {
+    position: relative;
+    left: 40px;
+    right: 40px;
+    display: block;
+    float: left;
+}
+
+.image2 {
+    position: relative;
+    left: 40px;
+    right: 40px;
+    display: block;
+    float: right;
+}
+
+.about {
+    position: relative;
+    left: 40px;
+    right: 40px;
+    display: block;
+    float: left;
+}
+
+.footer {
+    position: relative;
+    bottom: 10px;
+    width: 400px;
+    left: 700px;
+    top: 40px;
+    text-align: center;
+}
